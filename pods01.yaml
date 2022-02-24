@@ -14,6 +14,6 @@ spec:               #The spec part defines the characteristics that a given Kube
   containers:
   - name: webserver  # The name that this container will have.
     image: nginx:latest # The image on which it is based.
-    ports:               # The port(s) that will be open.
+    ports:               # The port(s) that will be open
     - containerPort: 80
     
