@@ -5,6 +5,7 @@ resource "google_container_cluster" "primary" {
   node_config {
     # Google recommends custom service accounts that have cloud-platform scope and permissions granted via IAM Roles.
     #service_account = google_service_account.default.email
+    machine_type = var.machine_type
     oauth_scopes = [
       "https://www.googleapis.com/auth/cloud-platform"
     ]

@@ -14,6 +14,6 @@ variable "initial_node_count" {
   default = 1
 }
 
-# variable "machine_type" {
-#   default = "n1-standard-2"
-# }
+variable "machine_type" {
+  default = "e2-small"
+}
