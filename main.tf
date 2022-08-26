@@ -20,6 +20,8 @@ resource "google_container_cluster" "primary" {
   }
 }
 
+## Si se requiere un grupo de nodos por separado usar la siguiente configuracion.
+
 # resource "google_container_node_pool" "primary_preemptible_nodes" {
 #   name       = "my-node-pool"
 #   cluster    = google_container_cluster.primary.id
