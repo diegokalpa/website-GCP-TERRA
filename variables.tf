@@ -15,5 +15,5 @@ variable "initial_node_count" {
 }
 
 variable "machine_type" {
-  default = "e2-medium"
+  default = "e2-small"
 }
